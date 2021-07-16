@@ -201,6 +201,7 @@ func ExpandSpec(spec *Swagger, options *ExpandOptions) error {
 }
 
 const rootBase = "root"
+
 // baseForRoot loads in the cache the root document and produces a fake "root" base path entry
 // for further $ref resolution
 func baseForRoot(root interface{}, cache ResolutionCache) string {
